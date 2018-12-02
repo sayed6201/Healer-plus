@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/forback">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="230dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/finalicon"/>
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/imageview1"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:src="@drawable/fortext"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/spaceullustration">
+
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:onClick="clickstart"
+            android:requiresFadingEdge="vertical"
+            android:text="Start NOW"
+            android:textColor="#ffffff" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

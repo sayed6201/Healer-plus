@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "826562387038",
+    "firebase_url": "https://healerplus-39542.firebaseio.com",
+    "project_id": "healerplus-39542",
+    "storage_bucket": "healerplus-39542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826562387038:android:45fa5fca70eed453",
+        "android_client_info": {
+          "package_name": "com.team71.healerplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826562387038-hcgs4ia87iv75540e14ie4uqttqklre8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team71.healerplus",
+            "certificate_hash": "6ff75dec21ef7ef162ee1c0c858d0285c5a4002f"
+          }
+        },
+        {
+          "client_id": "826562387038-4da90dsds7lpqmcf3oc4epldjacp8673.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpGE1CujxdDpd4u-YwYzWk72fWZnyCwrw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826562387038-4da90dsds7lpqmcf3oc4epldjacp8673.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

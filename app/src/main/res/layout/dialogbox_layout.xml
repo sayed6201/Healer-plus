@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    >
+
+
+    <EditText
+        android:id="@+id/report_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/report_detail_et"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Write your report to us"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
